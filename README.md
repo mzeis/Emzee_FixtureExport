@@ -4,7 +4,9 @@ Export products in the YAML fixture format required by
 [EcomDev_PHPUnit](https://github.com/IvanChepurnyi/EcomDev_PHPUnit).
 
 This is a very early version with many known issues (see the [Known Issues](#known-issues) section)
-and likely to break until you're not using very simple data.
+and likely to break until you're not using very simple data. In fact I didn't even try to use a
+generated fixture yet as this is a rainy Sunday afternoon proof of concept.
+
 Please report (or even fix, yay!) issues that you find while playing around with your data sets.
 
 Facts
