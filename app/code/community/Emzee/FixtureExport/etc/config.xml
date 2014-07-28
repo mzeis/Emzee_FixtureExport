@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Emzee_FixtureExport>
+            <version>0.1.0</version>
+        </Emzee_FixtureExport>
+    </modules>
+    <adminhtml>
+        <translate>
+            <modules>
+                <emzee_fixtureexport>
+                    <files>
+                        <default>Emzee_FixtureExport/Emzee_FixtureExport.csv</default>
+                    </files>
+                </emzee_fixtureexport>
+            </modules>
+        </translate>
+    </adminhtml>
+    <global>
+        <models>
+            <emzee_fixtureexport>
+                <class>Emzee_FixtureExport_Model</class>
+            </emzee_fixtureexport>
+        </models>
+        <blocks>
+            <emzee_fixtureexport>
+                <class>Emzee_FixtureExport_Block</class>
+            </emzee_fixtureexport>
+        </blocks>
+        <helpers>
+            <emzee_fixtureexport>
+                <class>Emzee_FixtureExport_Helper</class>
+            </emzee_fixtureexport>
+        </helpers>
+        <importexport>
+            <export_file_formats>
+                <fixtureexport translate="label">
+                    <model_token>emzee_fixtureexport/export_adapter_yaml</model_token>
+                    <label>EcomDev_PHPUnit Fixture</label>
+                </fixtureexport>
+            </export_file_formats>
+        </importexport>
+    </global>
+</config>

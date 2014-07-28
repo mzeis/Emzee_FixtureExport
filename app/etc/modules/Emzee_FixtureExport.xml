@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Emzee_FixtureExport>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_ImportExport/>
+
+            </depends>
+        </Emzee_FixtureExport>
+    </modules>
+</config>

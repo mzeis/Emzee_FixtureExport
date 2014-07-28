@@ -1,0 +1,15 @@
+{
+    "name": "emzee/emzee_fixture-export",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Export Magento data as EcomDev_PHPUnit fixtures.",
+    "authors":[
+        {
+            "name": "Matthias Zeis",
+            "email": "admin@matthias-zeis.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

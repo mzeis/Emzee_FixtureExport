@@ -1,0 +1,4 @@
+app/code/community/Emzee/FixtureExport/ app/code/community/Emzee/FixtureExport/
+app/etc/modules/Emzee_FixtureExport.xml app/etc/modules/Emzee_FixtureExport.xml
+app/locale/de_DE/Emzee_FixtureExport/ app/locale/de_DE/Emzee_FixtureExport/
+app/locale/en_US/Emzee_FixtureExport/ app/locale/en_US/Emzee_FixtureExport/
